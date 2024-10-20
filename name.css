@@ -212,6 +212,7 @@ input[type="checkbox"] {
 .slide {
     min-width: 33.33%; /* Показать 3 изображения одновременно */
     box-sizing: border-box; /* Чтобы не было лишних отступов */
+    border-right: 10px solid #ccc; /* Граница справа от каждого слайда */
 }
 
 .slide img {
@@ -250,6 +251,7 @@ input[type="checkbox"] {
         order: -1;
     }
     .slide {
+        border-right: none; /* Убираем границу для мобильных устройств */
         min-width: 100%; /* На мобильных устройствах показываем 1 изображение */
     }
 }
